@@ -1,0 +1,12 @@
+[core]
+	editor = \"C:\\Users\\Addy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Adam Young
+	email = awy6448@gmail.com
+[winUpdater]
+	recentlySeenVersion = 2.25.0.windows.1
