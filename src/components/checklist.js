@@ -1,6 +1,6 @@
 import React from 'react'
 
-const checklist = () => {
+const Checklist = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const checklist = () => {
   )
 }
 
-export default checklist
+export default Checklist
